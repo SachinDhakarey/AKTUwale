@@ -33,13 +33,6 @@ header {
   background-color: #000;
 }
 
-.dropdown-divider {
-  border-top-color: #000;
-  border-bottom-color: #000;
-  background-color: #000;
-  color: #000;
-}
-
 .dropdown-menu {
   background-color: #000;
   border: 1px solid #fff;
