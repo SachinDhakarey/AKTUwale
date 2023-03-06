@@ -1,76 +1,82 @@
+* {
+  font-family: "Uber Move", Arial, sans-serif;
+  background-color: #000;
+  color: #fff;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-  }
-  
-  nav {
-    background-color: #ddd;
-    padding: 10px;
-  }
-  
-  nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-   
+  margin: 0;
+  padding: 0;
 }
 
-nav ul li {
-display: inline-block;
-margin-right: 20px;
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
 }
 
-nav ul li:last-child {
-margin-right: 0;
+.navbar {
+  background-color: #000;
 }
 
-nav ul li a {
-color: #333;
-text-decoration: none;
+.nav-link {
+  color: white !important;
 }
 
-nav ul li a:hover {
-color: #666;
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+.dropdown-item {
+  color: #fff;
+  background-color: #000;
+}
+
+.dropdown-divider {
+  border-top-color: #000;
+  border-bottom-color: #000;
+  background-color: #000;
+  color: #000;
+}
+
+.dropdown-menu {
+  background-color: #000;
+  border: 1px solid #fff;
 }
 
 main {
-padding: 20px;
+  padding: 20px;
 }
 
 section {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 section h2 {
-font-size: 24px;
-margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 section ul {
-list-style: none;
-margin: 0;
-padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 section ul li {
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 section ul li a {
-color: #333;
-text-decoration: none;
+  color: #fff;
+  text-decoration: none;
 }
 
 section ul li a:hover {
-color: #666;
-}  
+  color: #aaa;
+}
 
 .course-name {
   padding-right: 20px;
