@@ -1,3 +1,56 @@
+@font-face {
+  font-family: 'Uber Move';
+  src: url('UberMove-Bold.eot');
+  src: local('UberMoveBold'), local('UberMove-Bold'),
+      url('UberMove-Bold.eot?#iefix') format('embedded-opentype'),
+      url('UberMove-Bold.woff2') format('woff2'),
+      url('UberMove-Bold.woff') format('woff'),
+      url('UberMove-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Uber Move';
+  src: url('UberMove-Regular.eot');
+  src: local('UberMoveRegular'), local('UberMove-Regular'),
+      url('UberMove-Regular.eot?#iefix') format('embedded-opentype'),
+      url('UberMove-Regular.woff2') format('woff2'),
+      url('UberMove-Regular.woff') format('woff'),
+      url('UberMove-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Uber Move';
+  src: url('UberMove-Light.eot');
+  src: local('UberMoveLight'), local('UberMove-Light'),
+      url('UberMove-Light.eot?#iefix') format('embedded-opentype'),
+      url('UberMove-Light.woff2') format('woff2'),
+      url('UberMove-Light.woff') format('woff'),
+      url('UberMove-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Uber Move';
+  src: url('UberMove-Medium.eot');
+  src: local('UberMoveMedium'), local('UberMove-Medium'),
+      url('UberMove-Medium.eot?#iefix') format('embedded-opentype'),
+      url('UberMove-Medium.woff2') format('woff2'),
+      url('UberMove-Medium.woff') format('woff'),
+      url('UberMove-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+
 * {
   font-family: "Uber Move", Arial, sans-serif;
   background-color: #000;
