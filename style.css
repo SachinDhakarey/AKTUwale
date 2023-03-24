@@ -81,6 +81,29 @@ header {
   font-weight: bold;
 }
 
+#navbarTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#navbarTitle h1:nth-child(1) {
+  color: #fff;
+  margin-bottom: 0.2em;
+  line-height: 0.3;
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+#navbarTitle h1:nth-child(2) {
+  color: #FFE400;
+  margin-bottom: 0.2em;
+  line-height: 0.3;
+  font-size: 6rem;
+  font-weight: bold;
+}
+
 .dropdown-item {
   color: #fff;
   background-color: #000;
