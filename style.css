@@ -127,3 +127,32 @@ section ul li a:hover {
 .course-name {
   padding-right: 20px;
 }
+
+#cookie-popup {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: #000;
+  text-align: center;
+  z-index: 9999;
+}
+
+#cookie-popup p {
+  margin: 0;
+}
+
+#cookie-accept {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#cookie-accept:hover {
+  background-color: #0062cc;
+}
