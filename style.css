@@ -66,6 +66,7 @@ header {
   background-color: #000;
   color: #fff;
   padding: 20px;
+  text-decoration: none;
 }
 
 .navbar {
@@ -81,11 +82,16 @@ header {
   font-weight: bold;
 }
 
+.header-link:hover {
+  text-decoration: none;
+}
+
 #navbarTitle {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 
 #navbarTitle h1:nth-child(1) {
