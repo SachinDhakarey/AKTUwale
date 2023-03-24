@@ -66,6 +66,7 @@ header {
   background-color: #000;
   color: #fff;
   padding: 20px;
+  text-decoration: none;
 }
 
 .navbar {
@@ -78,6 +79,34 @@ header {
 
 .navbar-brand {
   color: white !important;
+  font-weight: bold;
+}
+
+.header-link:hover {
+  text-decoration: none;
+}
+
+#navbarTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+#navbarTitle h1:nth-child(1) {
+  color: #fff;
+  margin-bottom: 0.2em;
+  line-height: 0.3;
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+#navbarTitle h1:nth-child(2) {
+  color: #FFE400;
+  margin-bottom: 0.2em;
+  line-height: 0.3;
+  font-size: 6rem;
   font-weight: bold;
 }
 
