@@ -185,3 +185,49 @@ section ul li a:hover {
 #cookie-accept:hover {
   background-color: #0062cc;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Roboto:wght@100&display=swap');
+
+
+footer{
+  background: #272727;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+  margin-top: auto;
+}
+footer li{
+  list-style: none;
+  display: inline-block;
+  margin: 10px;
+}
+.footer-icons a{
+  background: #589837;
+  color: #272727;
+  padding: 15px;
+  border-radius: 100px;
+  display:flex;
+  font-size: 25px;
+}
+
+.footer-icon a:hover{
+  color: #fff;
+
+}
+
+.footer-menu a{
+  color: #fff;
+}
+.footer-menu a:hover{
+  color: #5b9638;
+}
+.footer-copyright{
+  background-color: #5b9638;
+  color: #fff;
+  padding: 15px;
+  margin-top: 30px;
+}
+
+.footer-copyright p{
+  margin-bottom: 0px;
+}
