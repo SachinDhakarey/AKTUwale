@@ -74,8 +74,8 @@ header {
 }
 
 .homepageIMG{
-  height: 50px;
-  width: 40px;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .nav-link {
