@@ -73,6 +73,11 @@ header {
   background-color: #000;
 }
 
+.homepageIMG{
+  height: 50px;
+  width: 40px;
+}
+
 .nav-link {
   color: white !important;
 }
